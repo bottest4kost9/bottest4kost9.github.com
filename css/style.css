@@ -12,10 +12,11 @@ body{
 html{
     width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
-@media screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) {
     .buy__title{
         font-size: 48px;
     }
@@ -50,7 +51,7 @@ html{
         width: 280px;
     }
 }
-@media screen and (max-width: 900px){
+@media only screen and (max-width: 900px){
     .form__main{
         width: 90%;
     }
@@ -69,7 +70,7 @@ html{
     }
     
 }
-@media screen and (max-width: 1000px){
+@media only screen and (max-width: 1000px){
     .form__main{
         text-align: left;
     }
@@ -135,7 +136,7 @@ html{
         text-align: center;
     }
 }
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .skrito{
         display: none;
     }
@@ -154,7 +155,7 @@ html{
     } 
 }
 
-@media screen and (max-width: 580px){
+@media only screen and (max-width: 580px){
     .shym{
         width: 100%;
         overflow: hidden;
@@ -216,7 +217,7 @@ html{
   }
 }
 
-@media screen and (max-width: 390px){
+@media only screen and (max-width: 390px){
     .header__right{
         display: none;
     }

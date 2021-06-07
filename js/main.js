@@ -11,7 +11,6 @@ $(document).ready(function () {
 
 });
 
-
 let elem = document.getElementById('arrow')
 window.onscroll = function showArrow(){
     if(window.pageYOffset >300){

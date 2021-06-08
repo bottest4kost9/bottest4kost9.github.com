@@ -5,13 +5,13 @@ $(document).ready(function () {
 		var target = $(this).attr('href');
 		$('html, body').animate({
 			scrollTop: $(target).offset().top//можно вычесть высоту меню
-		}, 700);
+		}, 850);
 		return false;
 	});
 
 });
 
-let elem = document.getElementById('arrow')
+let elem = document.getElementById('arrow');
 window.onscroll = function showArrow() {
 	if (window.pageYOffset > 300) {
 		elem.classList.remove('none')
@@ -20,3 +20,4 @@ window.onscroll = function showArrow() {
 		elem.classList.add('none')
 	}
 }
+
